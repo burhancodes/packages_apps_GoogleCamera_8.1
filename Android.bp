@@ -1,0 +1,12 @@
+android_app_import {
+	name: "GoogleCamera",
+	owner: "google",
+	apk: "GMC-8.1.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Camera2", "Aperture", "Snap"],
+}
