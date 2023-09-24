@@ -1,12 +1,11 @@
 android_app_import {
-	name: "GoogleCamera",
-	owner: "google",
-	apk: "MGC_8.1.101_A9_PV0i_MGC.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Camera2", "Aperture", "Snap", "GCamGOPrebuilt-V3"],
+        name: "GoogleCamera8.1",
+        owner: "google",
+        apk: "MGC_8.1.101_A9_PV0i_MGC.apk",
+        overrides: ["Camera2", "Aperture"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        product_specific: true,
 }
